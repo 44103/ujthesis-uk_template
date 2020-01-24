@@ -1,0 +1,4 @@
+# template file
+thesis.*
+!*.tex
+!*.pdf
