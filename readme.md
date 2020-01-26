@@ -14,5 +14,15 @@ Cloud LaTeX等を使用している際は，エンジンをuplatexに変更す�
 
 サンプルでは，pbibtexにより，`references.bib`を使って参考文献を管理していますが，`thebibliography`環境等を使用する際は適宜変更をしてください．
 
+サンプルは修論用に設定されています．卒論の場合は以下の部分を変更してください．
+
+- `thesis.tex`ファイル変更点
+  - `\documentclass[bachelor]{ujthesis-uk}`に変更
+  - `\etitle`を削除
+  - `\eauthor`を削除
+  - `\etitle`を削除
+- `abstract.tex`ファイル変更点
+  - `eabstract`環境を削除
+
 ## 最後に
 クラスファイルに関する動作上の問題がある場合は，Issueによる報告やPull requestで修正を提示してもらえると助かります．
