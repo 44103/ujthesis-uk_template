@@ -20,7 +20,6 @@ Cloud LaTeX等を使用している際は，エンジンをuplatexに変更す�
   - `\documentclass[bachelor]{ujthesis-uk}`に変更
   - `\etitle`を削除
   - `\eauthor`を削除
-  - `\etitle`を削除
 - `abstract.tex`ファイル変更点
   - `eabstract`環境を削除
 
